@@ -1,0 +1,85 @@
+.partners-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  & .list {
+    display: flex;
+  }
+  & .section-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+    margin-bottom: 50px;
+  }
+  & .item-link {
+    display: flex;
+  }
+}
+
+.partners-section .partner-item {
+  display: flex;
+  width: 170px;
+  border: 2px solid #afb1b8;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+}
+.partner-item:hover .icon-hover {
+  fill: $accent-color;
+}
+.partners-section .partner-item:hover,
+.partners-section .partner-item:focus {
+  border-color: $accent-color;
+}
+.partners-section .partner-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.partner {
+  &-img {
+    padding: 20px 63px;
+  }
+  &-icon1 {
+    fill: #afb1b8;
+    width: 44.27px;
+    height: 49.23px;
+  }
+  &-icon2 {
+    fill: #afb1b8;
+    width: 40px;
+    height: 52px;
+  }
+  &-icon3 {
+    fill: #afb1b8;
+    width: 41px;
+    height: 42.6px;
+  }
+  &-icon4 {
+    fill: #afb1b8;
+    width: 79.66px;
+    height: 42.02px;
+  }
+  &-icon5 {
+    fill: #afb1b8;
+    width: 59px;
+    height: 47px;
+  }
+  &-icon6 {
+    fill: #afb1b8;
+    width: 88.48px;
+    height: 45.44px;
+  }
+}
+.icon-hover {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-hover:hover,
+.icon-hover:focus {
+  fill: var(--accent-color);
+}
