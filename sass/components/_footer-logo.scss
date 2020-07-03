@@ -1,0 +1,40 @@
+.footer {
+  background-size: cover;
+  background-color: #2f303a;
+  & .footer-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $primary-white-color;
+    margin-top: 0px;
+    margin-bottom: 9px;
+  }
+  &-flex {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.footer-logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 153px;
+  height: 31px;
+}
+.address-item {
+  width: 231px;
+  margin-bottom: 60px;
+}
+.footer-address-email,
+.footer-address-phone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-email {
+  margin-bottom: 9px;
+}

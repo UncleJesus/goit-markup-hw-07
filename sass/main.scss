@@ -1,3 +1,9 @@
-body {
-  background-color: red;
-}
+@import "./utils/variables";
+@import "./components/main-nav";
+@import "./components/main-nav-cont";
+
+// FOOTER
+
+@import "./components/footer-logo";
+@import "./components/footer-call-to-action";
+@import "./components/footer-subscribe";
