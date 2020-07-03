@@ -25,7 +25,7 @@
 .envelope {
   width: 16px;
   height: 11.2px;
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .address:hover &,
@@ -37,7 +37,7 @@
   vertical-align: middle;
   width: 10px;
   height: 14.94px;
-  fill: var(--primary-text-color);
+  fill: $primary-text-color;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .address:hover &,
