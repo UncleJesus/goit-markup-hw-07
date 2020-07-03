@@ -15,15 +15,16 @@
   margin-bottom: 24px;
   display: flex;
 }
-.team-link:hover .team-icon {
-  fill: $primary-white-color;
-  background-color: $accent-color;
-}
 
 .team-link:hover,
 .team-link:active {
+  cursor: pointer;
   fill: $primary-white-color;
   background-color: $accent-color;
+  & .team-icon {
+    fill: $primary-white-color;
+    background-color: $accent-color;
+  }
 }
 .team.list {
   display: flex;

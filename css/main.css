@@ -322,13 +322,15 @@ a {
   display: flex;
 }
 
-.team-link:hover .team-icon {
+.team-link:hover,
+.team-link:active {
+  cursor: pointer;
   fill: #ffffff;
   background-color: #2196f3;
 }
 
-.team-link:hover,
-.team-link:active {
+.team-link:hover .team-icon,
+.team-link:active .team-icon {
   fill: #ffffff;
   background-color: #2196f3;
 }
